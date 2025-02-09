@@ -1,49 +1,8 @@
-# tuna
+# <YOUR_APP_NAME>
 
-庄周吃鱼，利用 AI、大数据、云计算、区块链等技术，解决 X 条件下如何选择 Y 的问题。
+This project is based on [OpenSaas](https://opensaas.sh) template and consists of three main dirs:
+1. `app` - Your web app, built with [Wasp](https://wasp-lang.dev).
+2. `e2e-tests` - [Playwright](https://playwright.dev/) tests for your Wasp web app.
+3. `blog` - Your blog / docs, built with [Astro](https://docs.astro.build) based on [Starlight](https://starlight.astro.build/) template.
 
-当然，以上都是噱头，主要是为了解决中午吃什么的问题，可根据自己的爱好定制食谱。
-
-摇一摇得出你此刻的食谱，如有多人同时摇再根据摇中食谱中的石头、剪刀、步确定胜负。
-
-## 本地开发
-
-本项目使用 [React](https://react.dev/) 开发，需要本地安装 Node 20 以上版本。
-
-```bash
-# 安装依赖包
-npm install
-# 启动项目
-npm start
-
-```
-
-## 概念介绍
-
-Recipe，食谱，一个食谱就是一组规定好的 Api，确定基于哪些条件摇出什么样的结果。举例如下。
-
-- 干不干：这里有硬币的正反面，只能得出一种结果。顺便说明一下，再摇 10 次也是这个结果。
-- 中午吃什么：基于食谱菜单选出一种组合，如果需要可能附带下午茶。
-- 周末去哪玩：五棵松方圆 10 公里的公园应该去哪一个。
-- 宝宝吃什么：基于（你或网友）精心收集的宝宝餐，根据当前时间，确定现在适合吃哪几种。友情提醒宝宝适合一日多餐，且需自行把控菜单列表。
-
-所以你懂了，你应该 fork 此项目定制自己的食谱。
-
-定制自己的规则，请实现以下 API：
-
-- catalog
-- recipes
-
-## TODO
-
-- 首页体验优化
-- 代码风格统一
-- 插件化开发，每个人可完全自定义实现
-
-## 项目宗旨
-
-有所为，有所不为。
-
-## License
-
-Licensed under Apache-2.0.
+For more details, check READMEs of each respective directory!
